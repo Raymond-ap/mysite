@@ -9,7 +9,7 @@ const FormInput = ({ placeholder, label, value, onChange }) => {
         value={value}
         placeholder={placeholder}
         onChange={onChange}
-        className="w-full rounded-md border-2 border-slate-400 p-1"
+        className="w-full rounded-md border-2 border-slate-400 p-1 outline-none"
       />
       
     </div>
