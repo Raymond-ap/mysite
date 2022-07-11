@@ -1,9 +1,9 @@
 import React from 'react'
-import {FormInput} from './components'
+import {BasicInfo} from './pages'
 
 function App() {
   return (
-    <FormInput/>
+   <BasicInfo/>
   )
 }
 
