@@ -1,9 +1,15 @@
 import React from 'react'
 
-const FormInput = () =>{
+const FormInput = ({placeholder, label, value, type, onChange}) =>{
   return (
     <div className='input-wrapper'>
-    <input className='input'/>
+        <p className='label'>{label}</p>
+        <input 
+          type={type} 
+          value={value}
+          placeholder={placeholder}
+          onChange={onChange}
+        />
   </div> 
   )
 }
