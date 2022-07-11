@@ -2,9 +2,9 @@ import React from 'react'
 
 const FormInput = () =>{
   return (
-    <div>
-      <h1>FormInput</h1>
-    </div>
+    <div className='input-wrapper'>
+    <input className='input'/>
+  </div> 
   )
 }
 
