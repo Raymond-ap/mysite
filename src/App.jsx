@@ -4,6 +4,7 @@ import {BasicInfo} from './pages'
 function App() {
   return (
    <BasicInfo/>
+
   )
 }
 

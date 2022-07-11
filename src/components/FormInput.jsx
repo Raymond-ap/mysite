@@ -1,15 +1,17 @@
 import React from "react";
 
-const FormInput = ({ placeholder, label, value, type, onChange }) => {
+const FormInput = ({ placeholder, label, value, onChange }) => {
   return (
     <div className="input-wrapper">
-      <p className="label">{label}</p>
+      <p className="text-sm font-semibold mb-2 text-slate-400 capitalize">{label}</p>
       <input
-        type={type}
+        type="text"
         value={value}
         placeholder={placeholder}
         onChange={onChange}
+        className="w-full rounded-md border-2 border-slate-400 p-1"
       />
+      
     </div>
   );
 };
