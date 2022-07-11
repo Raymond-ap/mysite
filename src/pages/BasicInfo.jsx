@@ -1,34 +1,23 @@
-import React from 'react'
-import { FormInput } from '../components'
+import React from "react";
+import { FormInput, FormOption } from "../components";
 
 const BasicInfo = () => {
-    const [firstName, setFirstName] = React.useState('')
-    return (
-        <form className='grid grid-cols-2 gap-3 w-3/2 m-3 p-5 shadow-2xl rounded-md bg-white'>
-           <FormInput label={"organisation type"}
-                placeholder={"Enter your address"}
-                type={"text"}
-                value={firstName}
-                onChange={e => setFirstName(e.target.value)}
-            />
-           <FormInput label={"organisation name"}
-                type={"text"}
-                value={""}
-                onChange={e => {}}
-            />
-           <FormInput label={"Industry"}
-                type={"text"}
-                value={""}
-                onChange={e => {}}
-            />
-           <FormInput label={"bussiness industry"}
-                placeholder={"Enter your address"}
-                type={"text"}
-                value={""}
-                onChange={e => {}}
-            />    
-        </form>
-    )
-}
+  const [address, setAddress] = React.useState("");
+  const [name, setName] = React.useState("");
+  const [industry, setIndustry] = React.useState("");
+  const [location, setlocation] = React.useState("");
+  return (
+    <form className="grid grid-cols-2 gap-3 w-3/2 m-3 p-5 shadow-2xl rounded-md bg-white">
+      <FormOption label={"organisation type"} value={"Individaul"} />
+      <FormInput
+        label={"organisation name"}
+        onChange={(e) => setName(e.target.value)}
+        value={name}
+      />
+      <FormOption label={"Industry"} value={""} onChange={(e) => {}} />
+      <FormOption label={"bussiness location"} value={"United states"} />
+    </form>
+  );
+};
 
-export default BasicInfo
+export default BasicInfo;

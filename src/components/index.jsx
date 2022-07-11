@@ -1,5 +1,7 @@
 import FormInput from "./FormInput";
+import FormOption from './FormOption'
 
 export {
-    FormInput
+    FormInput,
+    FormOption
 }
