@@ -8,7 +8,7 @@ const BasicInfo = () => {
   const [location, setlocation] = React.useState("");
   return (
     <form className="grid grid-cols-2 gap-3 w-3/2 m-3 p-5 shadow-2xl rounded-md bg-white">
-      <FormOption label={"organisation type"} value={"Individaul"} />
+      <FormOption label={"organisation type"} value={"Individual"} />
       <FormInput
         label={"organisation name"}
         onChange={(e) => setName(e.target.value)}
