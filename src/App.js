@@ -1,7 +1,10 @@
 import React from 'react'
+import {FormInput} from './components'
 
 function App() {
-  return <h1>Mysite</h1>
+  return (
+    <FormInput/>
+  )
 }
 
 export default App
