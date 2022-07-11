@@ -1,9 +1,9 @@
 import React from 'react'
-import {BasicInfo, Address, LastPage} from './pages'
+import {BasicInfo, Address, LastPage, OtherInformation} from './pages'
 
 function App() {
   return (
-   <LastPage/>
+   <OtherInformation/>
 
   )
 }
