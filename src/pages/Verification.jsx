@@ -24,7 +24,7 @@ const Verification = () => {
 
 const AppButton = () => {
   return (
-    <button className="w-96 bg-cyan-600 outline-hidden hover:bg-cyan-700 mt-2 text-white font-bold py-2 px-4 rounded">
+    <button className="w-96 bg-cyan-600 outline-hidden hover:bg-cyan-700 mt-5 text-white font-bold py-2 px-4 rounded">
       Go to email
     </button>
   );
