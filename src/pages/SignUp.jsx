@@ -1,7 +1,7 @@
 import React from "react";
 import { FormInput } from "../components";
 
-const Login = () => {
+const SignUp = () => {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
 
@@ -76,4 +76,4 @@ const SocialButton = ({ title, image }) => {
   );
 };
 
-export default Login;
+export default SignUp;

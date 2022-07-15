@@ -3,7 +3,7 @@ import Address from "./Address";
 import LastPage from "./LastPage";
 import OtherInformation from "./OtherInformation";
 
-import Login from './Login'
+import SignUp from './SignUp'
 import Verification from './Verification'
 
 export {
@@ -11,6 +11,6 @@ export {
     Address,
     LastPage,
     OtherInformation,
-    Login,
+    SignUp,
     Verification
 }
