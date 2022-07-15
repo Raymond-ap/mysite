@@ -1,9 +1,6 @@
 import React from "react";
-import { FormInput } from "../components";
 
 const Verification = () => {
-  const [email, setEmail] = React.useState("");
-  const [password, setPassword] = React.useState("");
 
   return (
     <div className="w-screen text-center h-screen grid content-center justify-center bg-white">
