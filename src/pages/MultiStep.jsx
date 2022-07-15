@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import { PersonalInformation } from "../components";
+import { CompanyInformation } from "../components";
 
 const MultiStep = () => {
   return (
@@ -12,7 +12,7 @@ const MultiStep = () => {
         </div>
       </div>
       <div className="p-10 mr-36 ml-10 justify-center w-2/3 content-center ">
-       <PersonalInformation/>
+       <CompanyInformation/>
       </div>
     </div>
   );
