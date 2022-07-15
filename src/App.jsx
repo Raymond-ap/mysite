@@ -1,9 +1,9 @@
 import React from 'react'
-import {BasicInfo, Address, Verification, OtherInformation} from './pages'
+import {BasicInfo, Address, Verification, OtherInformation, SignUp} from './pages'
 
 function App() {
   return (
-   <Verification/>
+   <SignUp/>
   )
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 const Verification = () => {
 
   return (
-    <div className="w-screen text-center h-screen grid content-center justify-center bg-white">
+    <div className="w-screen text-center h-screen grid content-center justify-center background">
       <div className="p-5 rounded-md">
         <div className="font-bold text-2xl mb-6 from-neutral-900">
           <h1>Logo here</h1>
