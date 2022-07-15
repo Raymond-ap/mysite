@@ -4,6 +4,7 @@ import LastPage from "./LastPage";
 import OtherInformation from "./OtherInformation";
 
 import SignUp from './SignUp'
+import Login from './Login'
 import Verification from './Verification'
 
 export {
@@ -12,5 +13,6 @@ export {
     LastPage,
     OtherInformation,
     SignUp,
-    Verification
+    Verification,
+    Login
 }
