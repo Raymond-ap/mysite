@@ -8,6 +8,9 @@ const SignUp = () => {
   return (
     <div className="w-screen text-center h-screen grid content-center justify-center bg-white background">
       <form className="p-5 w-96 rounded-md">
+      <div className="font-bold text-2xl mb-6 from-neutral-900">
+          <h1>Logo here</h1>
+        </div>
         <h1 className="font-bold text-2xl mb-6 from-neutral-900">
           Sign up to finex
         </h1>
