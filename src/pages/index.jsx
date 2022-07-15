@@ -6,6 +6,7 @@ import OtherInformation from "./OtherInformation";
 import SignUp from './SignUp'
 import Login from './Login'
 import Verification from './Verification'
+import MultiStep from './MultiStep'
 
 export {
     BasicInfo,
@@ -14,5 +15,6 @@ export {
     OtherInformation,
     SignUp,
     Verification,
-    Login
+    Login,
+    MultiStep
 }
