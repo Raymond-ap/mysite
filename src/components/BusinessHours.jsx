@@ -71,6 +71,30 @@ const BusinessHours = () => {
             <FormOption options={options} />
           </div>
         </div>
+        {/*  */}
+        <div className="grid mt-1 grid-cols-3 gap-4 items-center">
+          <p className="text-sm capitalize font-semibold text-gray-400">
+            saturday
+          </p>
+          <div className="w-full">
+            <FormOption options={options} />
+          </div>
+          <div className="w-full">
+            <FormOption options={options} />
+          </div>
+        </div>
+        {/*  */}
+        <div className="grid mt-8 grid-cols-3 gap-4 items-center">
+          <p className="text-sm capitalize font-semibold text-gray-400">
+            launch
+          </p>
+          <div className="w-full">
+            <FormOption options={options} />
+          </div>
+          <div className="w-full">
+            <FormOption options={options} />
+          </div>
+        </div>
         <div className="mt-7 flex justify-between">
           <PrevButton />
           <NextButton />
