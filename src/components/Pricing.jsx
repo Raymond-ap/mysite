@@ -75,8 +75,11 @@ const Pricing = () => {
 const NextButton = () => {
   return (
     <div className="mt-10">
-      <button className="bg-cyan-600 hover:bg-cyan-700 text-white font-medium py-2 px-4 rounded-md">
-        Finish setup
+      <button className="bg-cyan-600 flex items-center hover:bg-cyan-700 text-white font-medium py-2 px-4 rounded-md">
+        Next
+        <div className="mr-2">
+          <FontAwesome color={"#fff"} size={10} name="long-arrow-right" />
+        </div>
       </button>
     </div>
   );
