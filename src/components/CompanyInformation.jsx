@@ -1,6 +1,6 @@
 import React from "react";
 import FormInput from "./FormInput";
-import Icon, { FontAwesome } from "react-web-vector-icons";
+import { FontAwesome } from "react-web-vector-icons";
 
 const CompanyInformation = () => {
   return (
