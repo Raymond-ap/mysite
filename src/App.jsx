@@ -1,5 +1,5 @@
 import React from 'react'
-import {BasicInfo, Address, Verification, MultiStep, Login} from './pages'
+import {BasicInfo, Address, OtherInformation, MultiStep, Login} from './pages'
 
 function App() {
   return (
