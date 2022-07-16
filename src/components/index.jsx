@@ -3,6 +3,7 @@ import FormOption from './FormOption'
 import PersonalInformation from './PersonalInformation'
 import CompanyInformation from './CompanyInformation'
 import CompanyLink from './CompanyLink'
+import Pricing from './Pricing'
 
 export {
     FormInput,
@@ -10,4 +11,5 @@ export {
     PersonalInformation,
     CompanyInformation,
     CompanyLink,
+    Pricing,
 }
