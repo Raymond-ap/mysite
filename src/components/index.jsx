@@ -4,6 +4,8 @@ import PersonalInformation from './PersonalInformation'
 import CompanyInformation from './CompanyInformation'
 import CompanyLink from './CompanyLink'
 import Pricing from './Pricing'
+import BusinessHours from './BusinessHours'
+
 
 export {
     FormInput,
@@ -12,4 +14,5 @@ export {
     CompanyInformation,
     CompanyLink,
     Pricing,
+    BusinessHours,
 }
